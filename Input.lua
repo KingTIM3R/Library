@@ -10,8 +10,8 @@ Input.__index = Input
 local UserInputService = game:GetService("UserInputService")
 
 -- Import utilities
-local Theme = require(script.Parent.Parent.Utilities.Theme)
-local Tween = require(script.Parent.Parent.Utilities.Tween)
+local Theme = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Theme.lua'))()
+local Tween = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Tween.lua'))()
 
 -- Create a new input field
 function Input.new(tab, config)
