@@ -23,16 +23,16 @@ local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 
 -- Import components
-local Window = require(script.Components.Window)
-local Button = require(script.Components.Button)
-local Label = require(script.Components.Label)
-local Input = require(script.Components.Input)
-local Checkbox = require(script.Components.Checkbox)
-local Slider = require(script.Components.Slider)
-local Tab = require(script.Components.Tab)
+local Window = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Window.lua'))()
+local Button = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Button.lua'))()
+local Label = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Label.lua'))()
+local Input = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Input.lua'))()
+local Checkbox = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Checkbox.lua'))()
+local Slider = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Slider.lua'))()
+local Tab = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Tab.lua'))()
 
 -- Import utilities
-local Theme = require(script.Utilities.Theme)
+local Theme = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingTIM3R/Library/refs/heads/main/Theme.lua'))()
 
 -- Library configuration
 local LIBRARY_CONFIG = {
